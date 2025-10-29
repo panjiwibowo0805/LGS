@@ -1,5 +1,3 @@
-[lgs.HTML](https://github.com/user-attachments/files/23218370/lgs.HTML)
-<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
