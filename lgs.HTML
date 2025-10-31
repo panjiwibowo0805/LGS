@@ -1,60 +1,43 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LGS Digitprint</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LGS DigitPrint</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <!-- Background -->
-  <div class="background"></div>
+<body style="background-image: url('images/bglgs.jpg');">
 
-  <!-- Navbar -->
-  <header class="navbar">
-    <img src="images/logolgs.jpg" alt="Logo LGS" class="logo" />
-    <div class="menu-icon" id="menuToggle">
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-  </header>
+    <!-- HEADER -->
+    <header class="navbar">
+        <img src="images/logolgs.png" class="logo" alt="LGS Logo">
+        <button class="menu-btn glow" onclick="loadPage('layanan')">☰</button>
+    </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-text">
-      <h1 class="title">SOLUTION</h1>
-      <h2 class="subtitle">FOR YOUR MARKETING</h2>
-      <div class="reflection">SOLUTION</div>
-    </div>
-  </section>
+    <!-- MAIN CONTENT -->
+    <main id="content" class="fade-in"></main>
 
-  <!-- About Section -->
-  <section class="about">
-    <h3>About Me</h3>
-    <p>
-      LOGOS DIGITAL PRINT adalah perusahaan yang bergerak di bidang Digital Marketing
-      dan Branding Strategy yang berkomitmen membantu bisnis berkembang dan beradaptasi di era digital.
-    </p>
-    <p>
-      Kami percaya bahwa kekuatan teknologi dan kreativitas dapat mengubah cara brand berinteraksi dengan audiens,
-      serta menciptakan nilai yang berkelanjutan bagi perusahaan.
-    </p>
-    <p>
-      Didirikan dengan semangat inovasi dan profesionalisme, kami menghadirkan layanan digital marketing yang terintegrasi —
-      mulai dari strategi pemasaran, pengelolaan media sosial, SEO, digital advertising, hingga pengembangan website dan konten kreatif.
-    </p>
-    <p>
-      Dengan dukungan tim ahli yang berpengalaman di bidang komunikasi digital, desain, dan analisis data, kami fokus menciptakan solusi
-      yang berorientasi pada hasil (result-driven), bukan sekadar eksposur.
-    </p>
-  </section>
+    <!-- FOOTER -->
+    <footer class="fade-content">
+        <div class="contact">
+            <a href="https://wa.me/message/XIVMSO26T36SF1" target="_blank">
+                <img src="images/logowa.png" alt="WhatsApp">
+            </a>
+            <p>WhatsApp: 0895351546916 (Hunting)</p>
+        </div>
+        <div class="map">
+            <a href="https://maps.app.goo.gl/ffQFW8y2c1VVDNmGA" target="_blank">
+                <img src="images/logomaps.png" alt="Map">
+            </a>
+            <p>Komplek Pasar Mojogedang, Karanganyar</p>
+            <p>pembuatan mmt </p>
+            <p>pembuatan sticker </p>
+            <p>pembuatan kaos </p>
+            <p>pembuatan sticker </p>
+            <p>pembuatan nota </p>     
+        </div>
+    </footer>
 
-  <!-- Printer Section -->
-  <section class="printer">
-    <img src="images/printlgs.jpg" alt="Printer LGS" />
-  </section>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
